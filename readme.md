@@ -1,0 +1,3 @@
+- Forma de evaluare - examen 70%
+- Proba practica (sap 7) - 20%
+- activitatea pe parcursul semestrului - 10%
