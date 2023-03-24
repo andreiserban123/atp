@@ -1,0 +1,5 @@
+
+Nr. Denumire       Pret Cantitati
+  1 Monitor              400.00  2   3   4   0   7   6   5   0   2   3   4   5 
+  2 Memorie              300.00  6   5   0   7   6   5   0   4   3   5   0   2 
+  3 PlacaV               700.00  4   5   0   3   2   4   5   6   7   8   9   2 
