@@ -36,15 +36,16 @@ void listareBinToText(const char *numeBin, const char *numeText)
         return;
     }
     g = fopen(numeText, "w");
-    fprintf(g, "\nNr. Denumire %5s Pret Cantitati", "");
+    fprintf(g, "Nr. Denumire %12s Pret %5s Cantitati\n", "", "");
     fread(&p, sizeof(Produs), 1, f);
     while (!feof(f))
     {
         if (p.is)
         {
-            fprintf(g, "\n%3d %-20s %6.2f", ++n, p.denumire, p.pret);
+            fprintf(g, "%3d %-20s %.2f %5s", ++n, p.denumire, p.pret, "");
             for (i = 0; i < 12; i++)
                 fprintf(g, "%3d ", p.cant[i]);
+            fprintf(g, "\n");
         }
         fread(&p, sizeof(Produs), 1, f);
     }
@@ -58,7 +59,7 @@ int main()
     Produs p;
     listareBinToText("ProduseInitial.dat", "output1.txt");
     f = fopen("ProduseInitial.dat", "rb+");
-    if (!f)
+    if (f == NULL)
     {
         printf("Can't open the file!");
         return 1;
@@ -69,14 +70,15 @@ int main()
     if (cod > nrart(f, sizeof(Produs)))
     {
         printf("NU EXISTA IN ARTICOL. COD INVALID");
+        fclose(f);
         return 1;
     }
     fseek(f, sizeof(Produs) * cod, 0);
     fread(&p, sizeof(Produs), 1, f);
-    strcpy(p.denumire, "Test");
+    strcpy(p.denumire, "test");
     fseek(f, ftell(f) - sizeof(Produs), 0);
     fwrite(&p, sizeof(Produs), 1, f);
-    listareBinToText("ProduseInitial.dat", "output2.txt");
     fclose(f);
+    listareBinToText("ProduseInitial.dat", "output2.txt");
     return 0;
 }
