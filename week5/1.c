@@ -5,7 +5,6 @@ CERINTA:
 3 operatie -> stergere + adaugare + conditie
 4. listare in fis binar
 5. exercitii
-
 */
 
 #include <stdio.h>
@@ -40,7 +39,7 @@ int main()
     f = fopen(nume, "wb+");
     // deschide pentru citire si scriere. daca fis exista, este suprascris, altfel este creat
 
-    printf("\n Cod produs: ");
+    printf("\nCod produs: ");
     scanf("%d", &cod);
     while (!feof(stdin))
     {
@@ -66,18 +65,17 @@ int main()
             printf("pret:");
             scanf("%f", &p.pret);
 
-            for (i = 0; i < 12; i++)
+            for (i = 0; i < 3; i++)
             {
                 printf("Cant %d: ", i + 1);
                 scanf("%d", &p.cant[i]);
             }
-
             p.is = 1;
             fwrite(&p, sizeof(PRODUS), 1, f);
         }
-
         printf("\nCod nou: ");
         scanf("%d", &cod);
     }
     fclose(f);
+    return 0;
 }
