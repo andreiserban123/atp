@@ -78,7 +78,8 @@ int main()
     printf("\nGrupa: ");
     scanf("%d", &student.grupa);
     printf("\nTip: ");
-    scanf(" %c", &student.tip);
+    fflush(stdin);
+    scanf("%c", &student.tip);
     printf("\nData: ");
     scanf("%d %d %d", &student.Data.zi, &student.Data.luna, &student.Data.an);
     printf("\nOra intrare: ");
