@@ -1,0 +1,909 @@
+Nr. matricol: 6884
+Nume: Andreea-77
+An: 1
+Grupa: 1012
+Tip: L
+Data: 5/11/2006
+Ora intrare: 11:59
+Ora iesire: 13:13
+
+Nr. matricol: 7707
+Nume: Claudiu-5
+An: 2
+Grupa: 1038
+Tip: L
+Data: 29/11/2006
+Ora intrare: 18:59
+Ora iesire: 21:52
+
+Nr. matricol: 2913
+Nume: Tiberiu-73
+An: 2
+Grupa: 1028
+Tip: B
+Data: 23/12/2005
+Ora intrare: 12:30
+Ora iesire: 13:5
+
+Nr. matricol: 8576
+Nume: Ruxandra-91
+An: 4
+Grupa: 1076
+Tip: L
+Data: 26/11/2007
+Ora intrare: 14:13
+Ora iesire: 15:21
+
+Nr. matricol: 7060
+Nume: Gabriela-58
+An: 3
+Grupa: 1049
+Tip: L
+Data: 28/1/2007
+Ora intrare: 10:0
+Ora iesire: 11:14
+
+Nr. matricol: 4264
+Nume: Mircea-82
+An: 3
+Grupa: 1059
+Tip: L
+Data: 4/12/2006
+Ora intrare: 9:49
+Ora iesire: 10:52
+
+Nr. matricol: 9837
+Nume: Ioana-92
+An: 3
+Grupa: 1049
+Tip: L
+Data: 14/5/2007
+Ora intrare: 16:2
+Ora iesire: 16:35
+
+Nr. matricol: 5797
+Nume: Tudor-45
+An: 2
+Grupa: 1021
+Tip: B
+Data: 3/5/2009
+Ora intrare: 11:41
+Ora iesire: 12:20
+
+Nr. matricol: 5478
+Nume: Gabriel-47
+An: 4
+Grupa: 1062
+Tip: L
+Data: 24/4/2006
+Ora intrare: 17:32
+Ora iesire: 19:13
+
+Nr. matricol: 1598
+Nume: Dalia-90
+An: 3
+Grupa: 1055
+Tip: B
+Data: 22/4/2010
+Ora intrare: 12:17
+Ora iesire: 14:2
+
+Nr. matricol: 2133
+Nume: Anda-4
+An: 3
+Grupa: 1048
+Tip: B
+Data: 16/1/2009
+Ora intrare: 16:14
+Ora iesire: 17:14
+
+Nr. matricol: 9381
+Nume: Kamiana-49
+An: 3
+Grupa: 1041
+Tip: B
+Data: 18/9/2010
+Ora intrare: 18:28
+Ora iesire: 19:3
+
+Nr. matricol: 6933
+Nume: Adina-95
+An: 2
+Grupa: 1034
+Tip: L
+Data: 25/7/2008
+Ora intrare: 7:47
+Ora iesire: 9:13
+
+Nr. matricol: 6330
+Nume: Suzana-55
+An: 1
+Grupa: 1005
+Tip: B
+Data: 6/10/2010
+Ora intrare: 19:58
+Ora iesire: 21:0
+
+Nr. matricol: 7107
+Nume: Bogdana-53
+An: 2
+Grupa: 1031
+Tip: B
+Data: 7/10/2005
+Ora intrare: 8:18
+Ora iesire: 10:11
+
+Nr. matricol: 9928
+Nume: Petre-32
+An: 2
+Grupa: 1038
+Tip: B
+Data: 31/1/2005
+Ora intrare: 16:5
+Ora iesire: 17:53
+
+Nr. matricol: 8613
+Nume: Kamiana-70
+An: 2
+Grupa: 1037
+Tip: B
+Data: 14/1/2009
+Ora intrare: 7:30
+Ora iesire: 8:43
+
+Nr. matricol: 9403
+Nume: Camelia-16
+An: 4
+Grupa: 1061
+Tip: L
+Data: 28/5/2005
+Ora intrare: 8:44
+Ora iesire: 10:22
+
+Nr. matricol: 4476
+Nume: Ionela-38
+An: 4
+Grupa: 1067
+Tip: B
+Data: 21/9/2009
+Ora intrare: 18:35
+Ora iesire: 19:41
+
+Nr. matricol: 4026
+Nume: Andreea-94
+An: 3
+Grupa: 1042
+Tip: B
+Data: 18/12/2011
+Ora intrare: 14:9
+Ora iesire: 15:49
+
+Nr. matricol: 6590
+Nume: Liana-81
+An: 4
+Grupa: 1067
+Tip: B
+Data: 23/1/2006
+Ora intrare: 13:16
+Ora iesire: 14:15
+
+Nr. matricol: 2778
+Nume: Tudor-71
+An: 5
+Grupa: 1089
+Tip: B
+Data: 25/12/2005
+Ora intrare: 15:45
+Ora iesire: 16:51
+
+Nr. matricol: 3093
+Nume: Suzana-62
+An: 5
+Grupa: 1092
+Tip: B
+Data: 19/10/2011
+Ora intrare: 9:27
+Ora iesire: 11:13
+
+Nr. matricol: 2209
+Nume: Ciprian-74
+An: 1
+Grupa: 1016
+Tip: L
+Data: 22/1/2011
+Ora intrare: 20:1
+Ora iesire: 21:0
+
+Nr. matricol: 1829
+Nume: Liana-51
+An: 4
+Grupa: 1073
+Tip: L
+Data: 5/3/2010
+Ora intrare: 11:36
+Ora iesire: 13:20
+
+Nr. matricol: 2758
+Nume: Alin-89
+An: 2
+Grupa: 1034
+Tip: B
+Data: 19/12/2007
+Ora intrare: 8:46
+Ora iesire: 9:33
+
+Nr. matricol: 6831
+Nume: Loredana-94
+An: 1
+Grupa: 1015
+Tip: B
+Data: 18/2/2011
+Ora intrare: 8:42
+Ora iesire: 10:24
+
+Nr. matricol: 4585
+Nume: Robert-88
+An: 2
+Grupa: 1021
+Tip: L
+Data: 31/9/2011
+Ora intrare: 12:39
+Ora iesire: 13:19
+
+Nr. matricol: 6577
+Nume: Eliza-33
+An: 3
+Grupa: 1047
+Tip: B
+Data: 18/6/2006
+Ora intrare: 7:52
+Ora iesire: 9:13
+
+Nr. matricol: 3164
+Nume: Laurentiu-96
+An: 1
+Grupa: 1004
+Tip: B
+Data: 6/5/2008
+Ora intrare: 8:8
+Ora iesire: 9:22
+
+Nr. matricol: 7685
+Nume: Suzana-54
+An: 4
+Grupa: 1068
+Tip: L
+Data: 24/12/2006
+Ora intrare: 7:53
+Ora iesire: 9:17
+
+Nr. matricol: 4600
+Nume: Tudor-81
+An: 2
+Grupa: 1021
+Tip: L
+Data: 7/3/2011
+Ora intrare: 9:57
+Ora iesire: 10:28
+
+Nr. matricol: 2463
+Nume: Bogdana-95
+An: 1
+Grupa: 1018
+Tip: L
+Data: 8/3/2008
+Ora intrare: 15:2
+Ora iesire: 16:16
+
+Nr. matricol: 2065
+Nume: Ioana-25
+An: 2
+Grupa: 1025
+Tip: B
+Data: 17/2/2005
+Ora intrare: 7:52
+Ora iesire: 9:0
+
+Nr. matricol: 4697
+Nume: Petre-79
+An: 1
+Grupa: 1002
+Tip: B
+Data: 29/5/2008
+Ora intrare: 12:55
+Ora iesire: 14:18
+
+Nr. matricol: 4925
+Nume: Laurentiu-93
+An: 1
+Grupa: 1012
+Tip: B
+Data: 6/12/2007
+Ora intrare: 12:54
+Ora iesire: 13:29
+
+Nr. matricol: 4144
+Nume: Bogdan-62
+An: 4
+Grupa: 1071
+Tip: L
+Data: 2/12/2005
+Ora intrare: 11:35
+Ora iesire: 12:53
+
+Nr. matricol: 7300
+Nume: Sorina-44
+An: 5
+Grupa: 1094
+Tip: B
+Data: 24/1/2006
+Ora intrare: 15:28
+Ora iesire: 16:2
+
+Nr. matricol: 6796
+Nume: Ancuta-86
+An: 1
+Grupa: 1007
+Tip: L
+Data: 18/5/2011
+Ora intrare: 12:29
+Ora iesire: 13:28
+
+Nr. matricol: 6913
+Nume: Mihaela-76
+An: 1
+Grupa: 1001
+Tip: B
+Data: 27/7/2008
+Ora intrare: 19:28
+Ora iesire: 20:23
+
+Nr. matricol: 8864
+Nume: Ionut-40
+An: 2
+Grupa: 1031
+Tip: L
+Data: 22/8/2010
+Ora intrare: 14:27
+Ora iesire: 15:53
+
+Nr. matricol: 2496
+Nume: Estera-34
+An: 5
+Grupa: 1089
+Tip: L
+Data: 30/5/2010
+Ora intrare: 16:41
+Ora iesire: 18:28
+
+Nr. matricol: 9157
+Nume: Alexandru-80
+An: 2
+Grupa: 1031
+Tip: L
+Data: 10/11/2011
+Ora intrare: 13:4
+Ora iesire: 13:57
+
+Nr. matricol: 2608
+Nume: Cristina-70
+An: 4
+Grupa: 1066
+Tip: L
+Data: 8/6/2011
+Ora intrare: 8:50
+Ora iesire: 9:56
+
+Nr. matricol: 3751
+Nume: Bianca-27
+An: 2
+Grupa: 1026
+Tip: L
+Data: 27/5/2010
+Ora intrare: 16:14
+Ora iesire: 16:50
+
+Nr. matricol: 3811
+Nume: Eliza-35
+An: 2
+Grupa: 1026
+Tip: L
+Data: 12/6/2006
+Ora intrare: 16:3
+Ora iesire: 17:42
+
+Nr. matricol: 9149
+Nume: Ancuta-24
+An: 1
+Grupa: 1014
+Tip: B
+Data: 20/1/2009
+Ora intrare: 10:44
+Ora iesire: 11:36
+
+Nr. matricol: 2774
+Nume: Ion-84
+An: 5
+Grupa: 1083
+Tip: B
+Data: 12/9/2005
+Ora intrare: 10:50
+Ora iesire: 11:36
+
+Nr. matricol: 9204
+Nume: Tiberiu-25
+An: 4
+Grupa: 1070
+Tip: B
+Data: 26/7/2010
+Ora intrare: 10:38
+Ora iesire: 11:56
+
+Nr. matricol: 9112
+Nume: Florentina-43
+An: 4
+Grupa: 1073
+Tip: L
+Data: 3/2/2008
+Ora intrare: 11:11
+Ora iesire: 12:26
+
+Nr. matricol: 6491
+Nume: Laurentiu-31
+An: 5
+Grupa: 1093
+Tip: L
+Data: 27/3/2005
+Ora intrare: 9:16
+Ora iesire: 10:1
+
+Nr. matricol: 3910
+Nume: Liviu-71
+An: 5
+Grupa: 1090
+Tip: B
+Data: 2/9/2010
+Ora intrare: 18:3
+Ora iesire: 18:41
+
+Nr. matricol: 6209
+Nume: Liviu-45
+An: 2
+Grupa: 1028
+Tip: L
+Data: 6/2/2011
+Ora intrare: 11:26
+Ora iesire: 12:50
+
+Nr. matricol: 5817
+Nume: Ciprian-66
+An: 1
+Grupa: 1001
+Tip: L
+Data: 17/3/2008
+Ora intrare: 12:53
+Ora iesire: 13:45
+
+Nr. matricol: 8698
+Nume: Marinela-81
+An: 2
+Grupa: 1027
+Tip: L
+Data: 1/2/2007
+Ora intrare: 19:26
+Ora iesire: 21:0
+
+Nr. matricol: 8714
+Nume: Florin-50
+An: 2
+Grupa: 1027
+Tip: B
+Data: 18/5/2006
+Ora intrare: 11:40
+Ora iesire: 13:12
+
+Nr. matricol: 4933
+Nume: Suzana-44
+An: 5
+Grupa: 1094
+Tip: B
+Data: 31/12/2007
+Ora intrare: 15:45
+Ora iesire: 16:19
+
+Nr. matricol: 1109
+Nume: Cristian-20
+An: 1
+Grupa: 1018
+Tip: L
+Data: 17/11/2005
+Ora intrare: 7:57
+Ora iesire: 9:25
+
+Nr. matricol: 4404
+Nume: Nicolae-33
+An: 2
+Grupa: 1026
+Tip: L
+Data: 1/4/2011
+Ora intrare: 19:36
+Ora iesire: 21:0
+
+Nr. matricol: 2983
+Nume: Sorina-66
+An: 4
+Grupa: 1061
+Tip: B
+Data: 9/4/2007
+Ora intrare: 14:26
+Ora iesire: 16:8
+
+Nr. matricol: 3438
+Nume: Rodica-69
+An: 4
+Grupa: 1067
+Tip: B
+Data: 7/11/2007
+Ora intrare: 12:9
+Ora iesire: 13:58
+
+Nr. matricol: 6744
+Nume: Ioana-87
+An: 3
+Grupa: 1046
+Tip: B
+Data: 1/11/2008
+Ora intrare: 15:35
+Ora iesire: 16:21
+
+Nr. matricol: 6673
+Nume: Eliza-25
+An: 1
+Grupa: 1019
+Tip: L
+Data: 19/6/2005
+Ora intrare: 20:3
+Ora iesire: 21:0
+
+Nr. matricol: 3389
+Nume: Cristina-53
+An: 3
+Grupa: 1043
+Tip: L
+Data: 28/8/2009
+Ora intrare: 12:40
+Ora iesire: 14:30
+
+Nr. matricol: 3852
+Nume: Elena-52
+An: 1
+Grupa: 1014
+Tip: L
+Data: 13/12/2011
+Ora intrare: 10:12
+Ora iesire: 11:19
+
+Nr. matricol: 5186
+Nume: Estera-5
+An: 2
+Grupa: 1028
+Tip: L
+Data: 21/12/2005
+Ora intrare: 17:39
+Ora iesire: 19:0
+
+Nr. matricol: 2878
+Nume: Alexandru-40
+An: 5
+Grupa: 1084
+Tip: L
+Data: 10/3/2011
+Ora intrare: 16:14
+Ora iesire: 18:1
+
+Nr. matricol: 7129
+Nume: Bogdan-62
+An: 3
+Grupa: 1050
+Tip: L
+Data: 22/4/2005
+Ora intrare: 12:0
+Ora iesire: 13:19
+
+Nr. matricol: 5856
+Nume: Tiberiu-30
+An: 1
+Grupa: 1008
+Tip: B
+Data: 29/11/2009
+Ora intrare: 9:57
+Ora iesire: 10:40
+
+Nr. matricol: 9256
+Nume: Marian-99
+An: 4
+Grupa: 1063
+Tip: B
+Data: 13/11/2007
+Ora intrare: 17:19
+Ora iesire: 18:50
+
+Nr. matricol: 3244
+Nume: Dana-38
+An: 4
+Grupa: 1068
+Tip: L
+Data: 30/7/2010
+Ora intrare: 12:41
+Ora iesire: 13:20
+
+Nr. matricol: 2908
+Nume: Sorina-44
+An: 5
+Grupa: 1094
+Tip: L
+Data: 8/10/2006
+Ora intrare: 16:31
+Ora iesire: 18:7
+
+Nr. matricol: 9812
+Nume: Florin-34
+An: 2
+Grupa: 1021
+Tip: L
+Data: 7/9/2007
+Ora intrare: 18:11
+Ora iesire: 20:4
+
+Nr. matricol: 8049
+Nume: Laurentiu-63
+An: 3
+Grupa: 1054
+Tip: L
+Data: 14/3/2005
+Ora intrare: 19:34
+Ora iesire: 20:39
+
+Nr. matricol: 6656
+Nume: Cristian-7
+An: 1
+Grupa: 1012
+Tip: L
+Data: 19/12/2005
+Ora intrare: 19:13
+Ora iesire: 21:0
+
+Nr. matricol: 9201
+Nume: Alexandra-46
+An: 3
+Grupa: 1041
+Tip: B
+Data: 10/7/2009
+Ora intrare: 13:58
+Ora iesire: 15:12
+
+Nr. matricol: 3394
+Nume: Ruxandra-29
+An: 1
+Grupa: 1003
+Tip: B
+Data: 19/12/2007
+Ora intrare: 16:45
+Ora iesire: 17:23
+
+Nr. matricol: 1315
+Nume: Andreea-57
+An: 1
+Grupa: 1013
+Tip: L
+Data: 23/6/2008
+Ora intrare: 18:58
+Ora iesire: 20:33
+
+Nr. matricol: 3818
+Nume: Dalia-56
+An: 4
+Grupa: 1062
+Tip: L
+Data: 31/11/2006
+Ora intrare: 19:42
+Ora iesire: 21:0
+
+Nr. matricol: 2310
+Nume: Rodica-92
+An: 3
+Grupa: 1043
+Tip: L
+Data: 25/4/2011
+Ora intrare: 16:59
+Ora iesire: 18:46
+
+Nr. matricol: 9042
+Nume: Gabriel-35
+An: 1
+Grupa: 1002
+Tip: L
+Data: 17/10/2011
+Ora intrare: 15:48
+Ora iesire: 16:27
+
+Nr. matricol: 5025
+Nume: Mihaela-50
+An: 2
+Grupa: 1031
+Tip: L
+Data: 4/10/2010
+Ora intrare: 9:17
+Ora iesire: 9:57
+
+Nr. matricol: 7351
+Nume: Teodor-99
+An: 1
+Grupa: 1019
+Tip: L
+Data: 28/3/2011
+Ora intrare: 9:51
+Ora iesire: 11:43
+
+Nr. matricol: 6131
+Nume: Tiberiu-38
+An: 2
+Grupa: 1038
+Tip: L
+Data: 29/6/2011
+Ora intrare: 8:43
+Ora iesire: 10:25
+
+Nr. matricol: 4123
+Nume: Eliza-14
+An: 5
+Grupa: 1094
+Tip: B
+Data: 3/9/2010
+Ora intrare: 19:20
+Ora iesire: 20:19
+
+Nr. matricol: 5359
+Nume: Adina-87
+An: 1
+Grupa: 1019
+Tip: B
+Data: 14/11/2009
+Ora intrare: 9:21
+Ora iesire: 10:53
+
+Nr. matricol: 3952
+Nume: Maria-51
+An: 2
+Grupa: 1023
+Tip: L
+Data: 2/6/2008
+Ora intrare: 13:0
+Ora iesire: 13:41
+
+Nr. matricol: 8146
+Nume: Dalia-42
+An: 2
+Grupa: 1030
+Tip: L
+Data: 27/4/2007
+Ora intrare: 11:58
+Ora iesire: 13:20
+
+Nr. matricol: 7089
+Nume: Mihai-61
+An: 1
+Grupa: 1012
+Tip: B
+Data: 20/5/2010
+Ora intrare: 9:51
+Ora iesire: 11:5
+
+Nr. matricol: 4807
+Nume: Maria-80
+An: 4
+Grupa: 1070
+Tip: L
+Data: 2/2/2008
+Ora intrare: 15:33
+Ora iesire: 17:7
+
+Nr. matricol: 7167
+Nume: Tudor-69
+An: 3
+Grupa: 1053
+Tip: L
+Data: 31/4/2005
+Ora intrare: 14:49
+Ora iesire: 16:37
+
+Nr. matricol: 9581
+Nume: Sorina-58
+An: 4
+Grupa: 1070
+Tip: B
+Data: 22/8/2011
+Ora intrare: 13:5
+Ora iesire: 14:42
+
+Nr. matricol: 6527
+Nume: Cristian-91
+An: 5
+Grupa: 1094
+Tip: L
+Data: 16/3/2011
+Ora intrare: 13:24
+Ora iesire: 14:40
+
+Nr. matricol: 2622
+Nume: Florin-23
+An: 1
+Grupa: 1014
+Tip: B
+Data: 9/5/2008
+Ora intrare: 18:38
+Ora iesire: 19:9
+
+Nr. matricol: 6903
+Nume: Doina-92
+An: 2
+Grupa: 1034
+Tip: B
+Data: 28/5/2007
+Ora intrare: 11:44
+Ora iesire: 13:1
+
+Nr. matricol: 9200
+Nume: Elena-87
+An: 2
+Grupa: 1030
+Tip: L
+Data: 10/2/2006
+Ora intrare: 11:52
+Ora iesire: 13:47
+
+Nr. matricol: 8403
+Nume: Teodor-31
+An: 2
+Grupa: 1023
+Tip: L
+Data: 15/11/2009
+Ora intrare: 14:8
+Ora iesire: 14:51
+
+Nr. matricol: 8334
+Nume: Marinela-20
+An: 4
+Grupa: 1075
+Tip: L
+Data: 29/1/2011
+Ora intrare: 8:6
+Ora iesire: 9:12
+
+Nr. matricol: 3263
+Nume: Florin-88
+An: 5
+Grupa: 1081
+Tip: L
+Data: 16/7/2007
+Ora intrare: 9:47
+Ora iesire: 11:3
+
+Nr. matricol: 3725
+Nume: Bogdan-99
+An: 1
+Grupa: 1007
+Tip: B
+Data: 21/9/2009
+Ora intrare: 19:40
+Ora iesire: 21:0
+
+Nr. matricol: 5555
+Nume: Mihaita-44
+An: 2
+Grupa: 2222
+Tip: B
+Data: 14/5/2016
+Ora intrare: 14:14
+Ora iesire: 0:0
+

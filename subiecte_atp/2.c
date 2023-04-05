@@ -56,26 +56,39 @@ void listareBinToText(const char *numeBin, const char *numeText)
 int main()
 {
     listareBinToText("SecvStud.dat", "Raport1.txt");
+    Student s;
+    int nr_mat;
     FILE *f = fopen("SecvStud.dat", "rb+");
-    if (f == NULL)
+    if (!f)
     {
         printf("FISIERUL NU A FOST GASIT!");
         return 0;
     }
-    Student student;
-    fread(&student, sizeof(Student), 1, f);
+    printf("Introdu numarul matricol al studentului: ");
+    scanf("%d", &nr_mat);
+    int ok = 0;
+    fread(&s, sizeof(Student), 1, f);
     while (!feof(f))
     {
-        if (student.nr_mat == 6903)
+        if (s.nr_mat == nr_mat)
         {
-            int minS, minF;
-            minS = student.oraInt.minut + student.oraInt.ora * 60;
-            minF = student.oraIesire.minut + student.oraIesire.ora * 60;
-            int h = (minF - minS) / 60;
-            int min = (minF - minS) % 60;
-            printf("A stat : %d ore si  %d minute", h, min);
+            printf("Introdu ora de iesire: ");
+            int ora, minut;
+            scanf("%d:%d", &ora, &minut);
+            s.oraIesire.minut = minut;
+            s.oraIesire.ora = ora;
+            long cur = ftell(f);
+            fseek(f, cur - sizeof(Student), 0);
+            fwrite(&s, sizeof(Student), 1, f);
+            fseek(f, 0, 1);
+            ok = 1;
+            break;
         }
-        fread(&student, sizeof(Student), 1, f);
+        fread(&s, sizeof(Student), 1, f);
     }
+    fclose(f);
+    if (ok == 0)
+        printf("studentul nu s a gasit!");
+    listareBinToText("SecvStud.dat", "Raport2.txt");
     return 0;
 }

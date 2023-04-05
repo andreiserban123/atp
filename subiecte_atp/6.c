@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 typedef struct
 {
@@ -53,29 +54,52 @@ void listareBinToText(const char *numeBin, const char *numeText)
     fclose(f);
     fclose(g);
 }
+int cmpStudent(const void *a, const void *b)
+{
+    const Student *s1 = (const Student *)a;
+    const Student *s2 = (const Student *)b;
+
+    // Compare by year first
+    if (s1->an < s2->an)
+        return -1;
+    else if (s1->an > s2->an)
+        return 1;
+
+    // If years are equal, compare by group
+    if (s1->grupa < s2->grupa)
+        return -1;
+    else if (s1->grupa > s2->grupa)
+        return 1;
+
+    // If both year and group are equal, return 0
+    return 0;
+}
+void sortareBinar(const char *numeBin)
+{
+    FILE *f;
+    Student s;
+    int n = 0, i;
+    f = fopen(numeBin, "rb+");
+    if (!f)
+    {
+        printf("FISIERUL NU A FOST GASIT!");
+        return;
+    }
+    fseek(f, 0, SEEK_END);
+    n = ftell(f) / sizeof(Student);
+    rewind(f);
+    Student *studenti = (Student *)malloc(n * sizeof(Student));
+    fread(studenti, sizeof(Student), n, f);
+    qsort(studenti, n, sizeof(Student), cmpStudent);
+    rewind(f);
+    fwrite(studenti, sizeof(Student), n, f);
+    fclose(f);
+    free(studenti);
+}
 int main()
 {
     listareBinToText("SecvStud.dat", "Raport1.txt");
-    FILE *f = fopen("SecvStud.dat", "rb+");
-    if (f == NULL)
-    {
-        printf("FISIERUL NU A FOST GASIT!");
-        return 0;
-    }
-    Student student;
-    fread(&student, sizeof(Student), 1, f);
-    while (!feof(f))
-    {
-        if (student.nr_mat == 6903)
-        {
-            int minS, minF;
-            minS = student.oraInt.minut + student.oraInt.ora * 60;
-            minF = student.oraIesire.minut + student.oraIesire.ora * 60;
-            int h = (minF - minS) / 60;
-            int min = (minF - minS) % 60;
-            printf("A stat : %d ore si  %d minute", h, min);
-        }
-        fread(&student, sizeof(Student), 1, f);
-    }
+    sortareBinar("SecvStud.dat");
+    listareBinToText("SecvStud.dat", "Raport2.txt");
     return 0;
 }

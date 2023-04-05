@@ -17,23 +17,27 @@ void afis(const char *nume)
     if (g == NULL && f == NULL)
         return;
     Student s;
-    fprintf(g, "\nNr   Nume%14s Grupa   An      Absente", " ");
+    fprintf(g, "%-4s%-15s%-8s%-6s%-4s", "Nr", "Nume", "Grupa", "An", "Absente");
+    fprintf(g, "\n");
     fread(&s, sizeof(Student), 1, f);
     while (!feof(f))
     {
         if (s.is != 0)
         {
-            fprintf(g, "\n\n%d   %s\t %s\t %d\t %d\t ", s.nrm, s.nume, " ", s.grupa, s.an);
+            fprintf(g, "%-4d%-10s%-8s%-6d%-2d%-8s", s.nrm, s.nume, " ", s.grupa, s.an, " ");
             for (int i = 0; i < 15; i++)
-                fprintf(g, "%d %d ", s.absente[i][0], s.absente[i][1]);
+                fprintf(g, "%-4d%-4d", s.absente[i][0], s.absente[i][1]);
+            fprintf(g, "\n");
         }
         fread(&s, sizeof(Student), 1, f);
     }
     fclose(f);
+    fclose(g);
 }
+
 int main()
 {
-    afis("Fis_relativ_abs.txt");
+    afis("Raport1.txt");
     FILE *f = fopen("Fis_relativ_abs.dat", "rb+");
     if (f == NULL)
         return 0;
@@ -48,19 +52,12 @@ int main()
         printf("\nCare e materia la care sa schimbam nr de absente?: ");
         int abs;
         scanf("%d", &abs);
-
-        printf("este curs sau seminar? <0/1> :");
-        int curs;
-        scanf("%d", &curs);
-
-        printf("\nCate absente are acum studentul? ");
-        int val;
-        scanf("%d", &val);
+        int curs = 1;
         fseek(f, nrm * sizeof(Student), SEEK_SET);
         fread(&s, sizeof(Student), 1, f);
         if (s.is != 0)
         {
-            s.absente[abs][curs] = val;
+            s.absente[abs][curs]--;
             fseek(f, nrm * sizeof(Student), SEEK_SET);
             fwrite(&s, sizeof(Student), 1, f);
             fseek(f, 0, SEEK_SET);
@@ -70,6 +67,6 @@ int main()
         printf("\nIntrodu noul numarul matricol al studentului: ");
         scanf("%d", &nrm);
     }
-    afis("Fis_relativ_abs.txt");
+    afis("Raport2.txt");
     return 0;
 }

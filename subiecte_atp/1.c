@@ -56,26 +56,32 @@ void listareBinToText(const char *numeBin, const char *numeText)
 int main()
 {
     listareBinToText("SecvStud.dat", "Raport1.txt");
+    Student s;
     FILE *f = fopen("SecvStud.dat", "rb+");
-    if (f == NULL)
+    if (!f)
     {
         printf("FISIERUL NU A FOST GASIT!");
         return 0;
     }
-    Student student;
-    fread(&student, sizeof(Student), 1, f);
-    while (!feof(f))
-    {
-        if (student.nr_mat == 6903)
-        {
-            int minS, minF;
-            minS = student.oraInt.minut + student.oraInt.ora * 60;
-            minF = student.oraIesire.minut + student.oraIesire.ora * 60;
-            int h = (minF - minS) / 60;
-            int min = (minF - minS) % 60;
-            printf("A stat : %d ore si  %d minute", h, min);
-        }
-        fread(&student, sizeof(Student), 1, f);
-    }
+    printf("Introdu numarul matricol al studentului: ");
+    scanf("%d", &s.nr_mat);
+    printf("Introdu numele studentului: ");
+    scanf("%s", s.nume);
+    printf("Introdu anul studentului: ");
+    scanf("%d", &s.an);
+    printf("Introdu grupa studentului: ");
+    scanf("%d", &s.grupa);
+    printf("Introdu tipul: ");
+    scanf(" %c", &s.tip);
+    printf("Introdu data: ");
+    scanf("%d/%d/%d", &s.Data.zi, &s.Data.luna, &s.Data.an);
+    printf("Introdu ora de intrare a studentului: ");
+    scanf("%d:%d", &s.oraInt.ora, &s.oraInt.minut);
+    s.oraIesire.ora = 0;
+    s.oraIesire.minut = 0;
+    fseek(f, 0, SEEK_END);
+    fwrite(&s, sizeof(Student), 1, f);
+    fclose(f);
+    listareBinToText("SecvStud.dat", "Raport2.txt");
     return 0;
 }

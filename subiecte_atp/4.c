@@ -64,6 +64,7 @@ int main()
     }
     Student student;
     fread(&student, sizeof(Student), 1, f);
+    int an = 0;
     while (!feof(f))
     {
         if (student.nr_mat == 6903)
@@ -71,11 +72,10 @@ int main()
             int minS, minF;
             minS = student.oraInt.minut + student.oraInt.ora * 60;
             minF = student.oraIesire.minut + student.oraIesire.ora * 60;
-            int h = (minF - minS) / 60;
-            int min = (minF - minS) % 60;
-            printf("A stat : %d ore si  %d minute", h, min);
+            an += minF - minS;
         }
         fread(&student, sizeof(Student), 1, f);
     }
+    printf("NUMARUL DE MINUTE PE AN : %d", an);
     return 0;
 }
