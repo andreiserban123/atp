@@ -18,7 +18,6 @@ int nrelemimp(int x[], int n)
 int main()
 {
     int n, x[10];
-
     scanf("%d", &n);
     for (int i = 0; i < n; i++)
         scanf("%d", &x[i]);
