@@ -43,9 +43,11 @@ void conversieTableToMatrice(int nrv, int nrm, int tabel[][2], int mat[6][6], in
             mat[i][j] = 0;
         }
     }
+
     for (i = 0; i < nrm; i++)
     {
-        mat[tabel[i][0] - 1][tabel[i][1] - 1] = 1;
+        // tabel[i][0] = 1, tabel[i][1] = 2
+        mat[tabel[i][0] - 1][tabel[i][1] - 1] = 1; // mat[1-1][2-1] =1
         mat[tabel[i][1] - 1][tabel[i][0] - 1] = 1;
     }
 }
